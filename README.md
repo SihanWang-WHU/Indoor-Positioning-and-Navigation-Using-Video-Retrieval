@@ -4,9 +4,9 @@
 This project introduces a cutting-edge approach to indoor positioning and navigation using video retrieval. It is designed to accurately identify user locations within indoor settings using state-of-the-art deep learning techniques, tailored for environments where GPS is ineffective.
 
 ## Key Features
-- **High Precision Location Identification**: Utilizes a ResNet50 model trained to predict user locations from images with over 90% accuracy, ensuring reliable navigation support.
+- **High Precision Location Identification**: Utilizes a **ResNet50 model** trained with **PyTorch** to predict user locations from images with over 90% accuracy, ensuring reliable navigation support.
 - **Efficient Processing**: Achieves a minimal computation time of 70ms, facilitating real-time user location updates.
-- **Extensive Database**: Features a streamlined MySQL database that holds attributes of over 100 Points of Interest (POIs) and 50,000+ data entries, enabling robust training and operational support for the deep learning models.
+- **Extensive Database**: Features a **streamlined MySQL database** that holds attributes of over 100 Points of Interest (POIs) and 50,000+ data entries, enabling robust **training and operational** support for the deep learning models.
 
 ## Technology Stack
 - **ResNet50 and PyTorch**: The core of our visual recognition system, providing efficient and accurate image-based location prediction.
